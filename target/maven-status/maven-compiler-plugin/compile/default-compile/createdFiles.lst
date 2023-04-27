@@ -1,0 +1,13 @@
+com/shava/spring/beans/Camiseta.class
+com/shava/spring/service/ServiceMarca.class
+com/shava/spring/dao/DAOJugadorImpl.class
+com/shava/spring/dao/DAOMarca.class
+com/shava/spring/beans/Equipo.class
+com/shava/spring/service/ServiceMarcaImpl.class
+com/shava/spring/dao/DAOMarcaImpl.class
+com/shava/spring/beans/Jugador.class
+com/shava/spring/dao/DAOJugador.class
+com/shava/spring/beans/Marca.class
+com/shava/spring/service/ServiceJugadorImpl.class
+com/shava/spring/springbd/App.class
+com/shava/spring/service/ServiceJugador.class

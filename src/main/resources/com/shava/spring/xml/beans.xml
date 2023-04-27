@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+">
+
+    <context:component-scan base-package="com.shava.spring"></context:component-scan>
+    <context:property-placeholder location="classpath:com/shava/spring/properties/dataBase.properties" /><!-- Sirve para jalar de un properties los datos de conexion Bd-->
+    
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url}" />
+        <property name="username" value="${usuario}" />
+        <property name="password" value="${clave}" />
+        
+        
+    </bean>
+</beans>
