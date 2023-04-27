@@ -41,8 +41,8 @@ public class App {
         camiseta.setMarca(mar);
         
         Jugador jugador = new Jugador();
-        jugador.setId(2);
-        jugador.setNombre("Jur");
+        jugador.setId(3);
+        jugador.setNombre("Vale");
         jugador.setEquipo(equipo);
         jugador.setCamiseta(camiseta);
         
