@@ -27,8 +27,8 @@ public class App {
         // TODO code application logic here
         
         Marca mar = new Marca();
-        mar.setId(1);
-        mar.setNombre("Marca 1");
+        mar.setId(2);
+        mar.setNombre("Marca 2");
 
 
         Equipo equipo = new Equipo();
