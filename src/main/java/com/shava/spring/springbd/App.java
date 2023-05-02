@@ -42,7 +42,7 @@ public class App {
         
         Jugador jugador = new Jugador();
         jugador.setId(3);
-        jugador.setNombre("Valeria!");
+        jugador.setNombre("Valeria GZ");
         jugador.setEquipo(equipo);
         jugador.setCamiseta(camiseta);
         
